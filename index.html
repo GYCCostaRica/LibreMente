@@ -27,6 +27,17 @@ a{color:#8A5A14}a:hover{color:#5E3C0B}
 .lm-btn-line:hover{background-color:#141414 !important;color:#fff !important}
 .lm-btn-gold:hover{background-color:#E7B565 !important}
 .lm-btn-famline:hover{background-color:#FFFFFF !important;color:#141414 !important}
+@media (max-width: 640px){
+#inscripcion table,#inscripcion tbody,#inscripcion tr,#inscripcion th{display:block;width:auto}
+#inscripcion thead{display:none}
+#inscripcion tbody tr{padding:16px 0;border-bottom:1px solid #EEE9DF}
+#inscripcion tbody tr:last-child{border-bottom:0}
+#inscripcion tbody th{padding:0 0 8px !important;border:0 !important;text-align:left !important;font-size:18px}
+#inscripcion tbody td{display:flex;flex-wrap:wrap;gap:4px;padding:4px 0 !important;border:0 !important;text-align:right !important}
+#inscripcion tbody td::before{margin-right:auto;color:#5E574C;font-weight:400}
+#inscripcion tbody td:nth-of-type(1)::before{content:"De contado"}
+#inscripcion tbody td:nth-of-type(2)::before{content:"A pagos"}
+}
 </style>
 </head>
 <body>
